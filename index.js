@@ -26,3 +26,10 @@ console.log("--EX33--")
 for (i=0;i<tdFromPage.length;i++) {
         tdFromPage.innerHTML = "Printing Text"
 }
+
+console.log("--EX34--")
+const changeHeadingh1 = function () {
+        const headingh1 = document.querySelector("h1")[0]
+        headingh1.innerText = "changed heading text"
+}
+// changeHeadingh1()
