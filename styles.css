@@ -35,3 +35,7 @@ table {          /*EX15*/
     border: solid;
     border-radius: 5px;
 }
+
+p {          /*EX16*/
+    margin: auto;
+}
