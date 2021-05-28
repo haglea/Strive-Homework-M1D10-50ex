@@ -28,5 +28,10 @@ a {          /*EX13*/
 }
 
 .borderclass {          /*EX14*/
-    border-style: solid; 
+    border: solid; 
+}
+
+table {          /*EX15*/
+    border: solid;
+    border-radius: 5px;
 }
