@@ -37,3 +37,10 @@ console.log("--EX25--")
 for (i=0;i<array10Strings.length;i++) {
 console.log(array10Strings[i])
 }
+
+console.log("--EX26--")
+let array100Random = []
+for (i=0;i<100;i++) {
+   array100Random[i] = Math.floor(Math.random() * 100 + 1) //set it to random whole integers
+}
+console.log(array100Random)
