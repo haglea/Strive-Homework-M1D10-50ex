@@ -69,3 +69,24 @@ let getLongestArray2 = function () {
     }
 }
 getLongestArray2()
+
+console.log("--EX30--")
+
+const arrayOfNumbers1 = [1,2]
+const arrayOfNumbers2 = [2,3,4]
+let sumArray1
+let sumArray2
+let getHigherSumArray2 = function () {
+    for (i=0;i<arrayOfNumbers1.length;i++) {
+        sumArray1 += arrayOfNumbers1[i]
+        sumArray2 += arrayOfNumbers2[i]
+    }
+    if (sumArray1 > sumArray2) { 
+        console.log("Sum of values in array:", arrayOfNumbers1, "is higher")
+        return arrayOfNumbers1
+    } else { 
+        console.log("Sum of values in array:", arrayOfNumbers2, "is higher")
+        return arrayOfNumbers2
+    }
+}
+getHigherSumArray2()
