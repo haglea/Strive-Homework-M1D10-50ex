@@ -41,6 +41,15 @@ console.log(array10Strings[i])
 console.log("--EX26--")
 let array100Random = []
 for (i=0;i<100;i++) {
-   array100Random[i] = Math.floor(Math.random() * 100 + 1) //set it to random whole integers
+   array100Random[i] = Math.floor(Math.random() * 100 + 1) //set it to random whole integers from 1 to 100
 }
 console.log(array100Random)
+
+console.log("--EX27--")
+let maxAndMin = function (array100Random) {
+    let maxRandomNumber = Math.max.apply(null, array100Random)
+    let minRandomNumber = Math.min.apply(null, array100Random)
+    console.log(maxRandomNumber, minRandomNumber)
+    return maxRandomNumber, minRandomNumber
+}
+maxAndMin(array100Random)
