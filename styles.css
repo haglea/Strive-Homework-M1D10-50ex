@@ -16,6 +16,10 @@ CSS EXERCISES
 
 body {          /*EX11*/
     max-width: 100%;
-    text-align: center;
+    margin: auto; /*centering element horizontally*/
+}
+
+h1 {          /*EX12*/
+    text-align: center; /*aligning text to center*/
 }
 
