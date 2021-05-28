@@ -39,7 +39,7 @@ console.log(array10Strings)
 
 console.log("--EX25--")
 for (i=0;i<array10Strings.length;i++) {
-console.log(array10Strings[i])
+console.log(array10Strings)
 }
 
 console.log("--EX26--")

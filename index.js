@@ -20,3 +20,9 @@ console.log(divContainer)
 console.log("--EX32--")
 const tdFromPage = document.querySelectorAll("td")
 console.log(tdFromPage)
+
+
+console.log("--EX33--")
+for (i=0;i<tdFromPage.length;i++) {
+        tdFromPage.innerHTML = "Printing Text"
+}
