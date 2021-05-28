@@ -16,3 +16,7 @@ DOM
 console.log("--EX31--")
 const divContainer = document.getElementById("container")
 console.log(divContainer)
+
+console.log("--EX32--")
+const tdFromPage = document.querySelectorAll("td")
+console.log(tdFromPage)
