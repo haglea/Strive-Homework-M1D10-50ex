@@ -33,3 +33,7 @@ console.log("--EX24--")
 let array10Strings = ["string1", "string2","string3","string4","string5","string6","string7","string8","string9","string10"]
 console.log(array10Strings)
 
+console.log("--EX25--")
+for (i=0;i<array10Strings.length;i++) {
+console.log(array10Strings[i])
+}
