@@ -28,3 +28,8 @@ console.log(person)
 console.log("--EX23--")
 delete person.email
 console.log(person)
+
+console.log("--EX24--")
+let array10Strings = ["string1", "string2","string3","string4","string5","string6","string7","string8","string9","string10"]
+console.log(array10Strings)
+
