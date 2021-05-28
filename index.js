@@ -33,3 +33,11 @@ const changeHeadingh1 = function () {
         headingh1.innerText = "changed heading text"
 }
 // changeHeadingh1()
+
+console.log("--EX35--")
+const addExtraRow = function () {
+        const table = document.querySelector("table")
+        const extraRow = document.createElement("tr")
+        table.appendChild(extraRow)
+}
+//addExtraRow()
