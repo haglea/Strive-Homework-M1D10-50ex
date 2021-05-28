@@ -24,3 +24,7 @@ let person = {
     email: "john@doe.com"
 }
 console.log(person)
+
+console.log("--EX23--")
+delete person.email
+console.log(person)
