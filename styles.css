@@ -36,6 +36,10 @@ p {          /*EX16*/
     margin: auto;
 }
 
+td {          /*EX19*/
+    border: solid green;
+}
+
 .border {          /*EX14*/
     border: solid; 
 }
@@ -43,4 +47,8 @@ p {          /*EX16*/
 .font {          /*EX17*/
     font-size: 14px;
     font-weight: bold;
+}
+
+.hide {          /*EX18*/
+    visibility: hidden;
 }
