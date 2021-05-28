@@ -16,3 +16,11 @@ console.log("--EX21--")
 let x = "John"
 let y = "Doe"
 console.log('"' + x, '<>', y + '"')
+
+console.log("--EX22--")
+let person = {
+    name: "John",
+    surname: "Doe",
+    email: "john@doe.com"
+}
+console.log(person)
