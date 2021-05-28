@@ -30,7 +30,7 @@ delete person.email
 console.log(person)
 
 console.log("--EX24--")
-let array10Strings = ["string1", "string2","string3","string4","string5","string6","string7","string8","string9","string10"]
+const array10Strings = ["string1", "string2","string3","string4","string5","string6","string7","string8","string9","string10"]
 console.log(array10Strings)
 
 console.log("--EX25--")
@@ -46,10 +46,26 @@ for (i=0;i<100;i++) {
 console.log(array100Random)
 
 console.log("--EX27--")
-let maxAndMin = function (array100Random) {
+let getMaxAndMin = function (array100Random) {
     let maxRandomNumber = Math.max.apply(null, array100Random)
     let minRandomNumber = Math.min.apply(null, array100Random)
     console.log(maxRandomNumber, minRandomNumber)
     return maxRandomNumber, minRandomNumber
 }
-maxAndMin(array100Random)
+getMaxAndMin(array100Random)
+
+console.log("--EX28--")
+
+console.log("--EX29--")
+const array1 = [1,2]
+const array2 = [2,3,4]
+let getLongestArray2 = function () {
+    if (array1.length > array2.length) { 
+        console.log(array1, "is longest")
+        return array1
+    } else { 
+        console.log(array2, "is longest")
+        return array2
+    }
+}
+getLongestArray2()
