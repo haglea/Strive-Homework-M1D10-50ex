@@ -14,8 +14,11 @@ CSS EXERCISES
        
 */ 
 
-body {          /*EX11*/
+body > div {          /*EX11*/
     max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;  
     margin: auto; /*centering element horizontally*/
 }
 
@@ -25,6 +28,7 @@ h1 {          /*EX12*/
 
 a {          /*EX13*/
     background-color:brown; /* background-color as color was not visible*/
+    margin: 1rem;
 }
 
 table {          /*EX15*/
@@ -33,15 +37,15 @@ table {          /*EX15*/
 }
 
 p {          /*EX16*/
-    margin: auto;
+    margin: 1rem;
 }
 
 td {          /*EX19*/
     border: solid green;
 }
 
-.border {          /*EX14*/
-    border: solid; 
+.test {          /*EX14*/
+    border: 3px solid; 
 }
 
 .font {          /*EX17*/
@@ -50,5 +54,23 @@ td {          /*EX19*/
 }
 
 .hide {          /*EX18*/
-    visibility: hidden;
+    display: none;
 }
+
+                /*EX20*/
+tr td:first-child {
+    border-left: 1px dotted red;
+  }
+
+  tr td:last-child {
+    border-right: 1px dotted red;
+  }
+
+  td {
+    border-bottom: 1px dotted red;
+    border-top: 1px dotted red;
+  }
+
+  footer {
+      padding: 1rem;
+  }
